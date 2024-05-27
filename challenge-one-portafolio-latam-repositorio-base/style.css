@@ -1,0 +1,748 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+/*Walter Delgadillo*/
+.menu__title{
+    display: flex;
+    position: absolute;
+    font-size: 25px;
+    color: #464646;
+    margin-left: 30px;
+    margin-top: -28px;
+}
+/*Menu superior*/
+.menu__list__item{
+    display: none;
+}
+/*contacto*/
+.menu__list__item__contato{
+    display: flex;
+    font-size: 25px;
+    color: #464646;
+    margin-right: 30px;
+    margin-top: -28px;
+}
+/*Titulo de ela biografia*/
+.title__bio{
+    display: flex;
+    color: #464646;
+    font-style: bold;
+    font-size: 25px; 
+}
+/*biografia Principal*/
+.title__subsection{
+    display: flex;
+    color: #464646;
+    margin-top: 20px;
+}
+/*foto*/
+.title__profile{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+  width: 120px;
+}
+/*Redes sociales*/
+.title__network{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 30px;
+}
+.about__container{
+    background-color: #eaf2fd;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/*Palabra sobre Mi*/
+.about__title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: #464646;
+}
+    /*Descripcion sobre Mi*/
+.about__paragraph{
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    text-align: justify;
+    background-color: #eaf2fd;
+}
+  /*palabra Skills*/
+  .skills__title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: #464646;
+}
+/*caja de skills*/
+.skills__box{
+    display: flex;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 100px;
+    padding: 5px;
+    font-size: 20px;
+    color: #464646;
+}
+/*palabra Hobbies*/
+.hobbies__title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: #464646;
+}
+   /*caja de Hobies*/
+   .hobbies__box{
+    display: flex;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 100px;
+    padding: 5px;
+    font-size: 20px;
+    color: #464646;
+}
+.academic__courses{
+    background-color: #eaf2fd;
+}
+  /*palabra Formacion Academica*/
+  .academic__title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: #464646;
+}
+  /*Caja de Formacion Academica*/
+  .academic__courses__box{
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    vertical-align: top;
+    margin-left: 100px;
+    color: #464646;
+}
+/*foto de experiencia 1*/
+.experience__img{
+    width: 460px;
+}
+/*Seccion Experiencia*/
+.experience__section__title{
+    margin-top: 50px;
+   text-align: center;
+    font-size: 25px;
+    color: #464646;
+}
+/*fomulario Experiencia 1*/
+.experience__info__1{
+    margin-left: 80px;
+    margin-top: 20px;
+    color: #464646;
+    font-size: 20px;
+ }
+/*Boton Repo*/
+.experiencia__botao--repo{
+    font-size: 18px;
+    width: 150px;
+    padding: 15px 0;
+    font-weight: bold;
+    color: white;
+    background: #2a7ae4;
+    border-color: white;
+}
+/*Boton demo*/
+.experience__botao--demo{
+    font-size: 18px;
+    width: 150px;
+    padding: 15px 0;
+    font-weight: bold;
+    background: white;
+    Color: #2a7ae4;
+    border-color: #2a7ae4;
+}
+  /*Imagen Experiencia 2*/
+  .experience__img__2{
+    width: 460px;
+    margin-top: 20px;
+}
+/*fomulario Experiencia 2*/
+.experience__info__2{
+    margin-left: 80px;
+    margin-top: 10px;
+    color: #464646;
+    font-size: 20px;
+}
+/*fomulario Experiencia 3*/
+.experience__info-container__3{
+    margin-left: 80px;
+    margin-top: 10px;
+    color: #464646;
+    font-size: 20px;
+}
+/*Imagen Experiencia 3*/
+.experience__img__3{
+    width: 460px;
+    margin-top: 20px;
+}
+/*Imagen Experiencia 4*/
+.experience__img__4{
+    width: 460px;
+    margin-top: 20px;
+
+}
+/*fomulario Experiencia 4*/
+.experience__info-container__4{
+    margin-left: 80px;
+    margin-top: 10px;
+    color: #464646;
+    font-size: 20px;
+}
+/*Imagen Telefono*/
+.formcontato__img{
+ width: 0;
+}
+.formcontato__contacto{
+    background-color: #eaf2fd;
+}
+.formcontato__text{
+    background-color: #eaf2fd;
+}
+/*Formulario*/
+.formcontato__text{
+    margin-top: 100px;
+    font-size: 18px;
+    color: #464646;
+}
+/*tamano Formulario*/
+.formcontato__input{
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 300px; 
+    margin-left: 10px;
+}
+/*Forma del Area de Texto*/
+.formcontato__textarea{
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 400px; 
+    margin-left: 10px;
+}
+ /*Boton Formulario*/
+.formcontato__botao{
+    font-size: 18px;
+    width: 150px;
+    padding: 15px 0;
+    font-weight: bold;
+    color: white;
+    background: #2a7ae4;
+    border-color: white;
+}
+/*Rodapie*/
+.footer{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: #464646;
+    background-color: #eaf2fd;
+}
+/*pantallas tablet*/
+ @media (min-width:540px ){
+    /*Foto*/
+    .title__profile{
+        display: flex;
+      margin-left:auto;
+      margin-top: 20px;
+      width: 200px;
+    }
+    /*Titulo de la biografia*/
+    .title__bio{
+        margin-top: -180px;
+        margin-right: 200px;
+        color: #464646;
+        font-weight: bold;
+        font-size: 25px; 
+        margin-left: 10px;
+    }
+    /*Biogradia 2*/
+    .title__subsection{
+         color: #464646;
+         font-size: 20px; 
+         margin-top: 20px;
+         margin-right: 200px;
+         margin-left: 10px;
+     }
+    /*Redes Sociales*/
+    .title__network{
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-right: 190px;
+        margin-left: 10px;
+        color: #464646;
+    }
+    /*caja de skills*/
+    .skills__box{
+    display: flex;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 100px;
+    padding: 40px;
+    font-size: 20px;
+    color: #464646;
+    }
+   /*caja de Hobies*/
+   .hobbies__box{
+    display: flex;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 100px;
+    padding: 40px;
+    font-size: 20px;
+    color: #464646;
+    }
+      /*Caja de Formacion Academica*/
+  .academic__courses__box{
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #464646;    
+    }
+    /*foto de experiencia 1*/
+    .experience__img{
+    width: 600px;
+    }
+    /*Imagen Experiencia 2*/
+    .experience__img__2{
+        width: 600px;
+    }
+    /*Imagen Experiencia 3*/
+    .experience__img__3{
+        width: 600px;
+    }
+    /*Imagen Experiencia 4*/
+    .experience__img__4{
+        width: 600px;
+    }
+       /*Formulario*/
+       .formcontato__text{
+        margin-top: 100px;
+        font-size: 18px;
+        color: #464646;
+    }
+    /*tamano Formulario*/
+    .formcontato__input{
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 300px; 
+        margin-left: 10px;
+        margin-right: 150px;
+    }
+    /*Forma del Area de Texto*/
+    .formcontato__textarea{
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 400px; 
+        margin-left: 10px;
+        margin-right: 150px;
+        
+    }
+     /*Boton Formulario*/
+    .formcontato__botao{
+        font-size: 18px;
+        width: 150px;
+        margin-right: 200px;
+        margin-left: 10px;
+        padding: 15px 0;
+        font-weight: bold;
+        color: white;
+        background: #2a7ae4;
+        border-color: white;
+    }
+}
+/*pantalla pc*/
+@media (min-width:1024px){
+    /*Walter*/
+    .menu__title{
+        display: flex;
+        position: absolute;
+        font-size: 25px;
+        color: #464646;
+        margin-left: 30px;
+        margin-top: -28px;
+       
+    }
+    /*Menu superior*/
+    .menu__list__item{
+        display: inline;
+        height: 63px;
+        font-size: 20px;
+        padding: 0 5px;
+        top: 80px;
+        right: 0px;
+        left: 0px;     
+    }
+    /*la lista con Contacto*/
+    .menu__list__item__contato{
+        display: none;
+    }
+    /*Titulo de la biografia*/
+    .title__bio{
+        display: flex;
+        color: #464646;
+        font-style: bold;
+        font-size: 50px; 
+         margin: 0 420px 0 30px;
+        margin-top: -370px;
+    }
+    /*Biografia*/
+    .title__subsection{
+       display: flex;
+        color: #464646;
+        font-style: bold;
+        font-size: 25px; 
+        margin: 0 420px 0 30px;
+        margin-top: 40px;
+    }
+    /*foto*/
+    .title__profile{
+        display: flex;
+        margin-left:auto;
+        width: 390px;
+        margin-right: 35px;
+    }
+    /*Lista de redes*/
+    .title__network{
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-right: 550px;
+        margin-left: 30px;
+        color: #464646;
+    }
+    /*PAlabraAcerca de Mi*/
+    .about__container{
+        margin-top: 130px;
+        margin-left: 30px;
+        font-size: 25px;
+        color: #464646;
+    }
+    /*Descripcion Acerca de Mi*/
+    .about__paragraph{
+        margin-left: 10px;
+        margin-right: 400px;
+        font-size: 20px;
+        text-align: justify;
+        color: #464646;
+    }
+    /*palabra Skills*/
+    .skills__title{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 25px;
+        color: #464646;
+    }
+    /*caja de skills*/
+    .skills__box{
+        display: flex;
+        display: inline-block;
+        margin-left: 30px;
+        margin-right: 20px;
+        width: 100px;
+        padding: 5px;
+        font-size: 20px;
+        color: #464646;
+    }
+    /*caja de Hobies*/
+    .hobbies__box{
+        display: flex;
+        display: inline-block;
+        margin-left: 30px;
+        margin-right: 20px;
+        width: 100px;
+        padding: 5px;
+        font-size: 20px;
+        color: #464646;
+    }
+  
+    /*Caja de Formacion Academica*/
+    .academic__courses__box{
+        display: flex;
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+        vertical-align: top;
+        margin-left: 100px;
+        color: #464646;
+    }
+    /*Titulo Experiencia*/
+    .experience__section__title{
+        color: #464646;
+    }
+    /*foto de experiencia 1*/
+    .experience__img{
+    width: 600px;
+    }
+    /*fomulario Experiencia 1*/
+    .experience__info__1{
+      float: right;
+      color: #464646;
+      font-size: 20px;
+      margin-top: 100px;
+    }
+    /*Boton Repo*/
+    .experiencia__botao--repo{
+        font-size: 18px;
+        width: 150px;
+        padding: 15px 0;
+        font-weight: bold;
+        color: white;
+        background: #2a7ae4;
+        border-color: white;
+    }
+    /*Boton demo*/
+    .experience__botao--demo{
+        font-size: 18px;
+        width: 150px;
+        padding: 15px 0;
+        font-weight: bold;
+        background: white;
+        Color: #2a7ae4;
+        border-color: #2a7ae4;
+    }
+    /*Imagen Experiencia 2*/
+    .experience__img__2{
+        width: 600px;
+        float: right;
+        margin-top: -50px;
+    }
+    /*fomulario Experiencia 2*/
+    .experience__info__2{
+        color: #464646;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 150px; 
+    }
+    /*fomulario Experiencia 3*/
+    .experience__info-container__3{
+        float: right;
+        margin-top: 150px; 
+      color: #464646;
+      font-size: 20px;
+    }
+    /*Imagen Experiencia 3*/
+    .experience__img__3{
+        width: 600px;
+    }
+    /*Imagen Experiencia 4*/
+    .experience__img__4{
+        width: 600px;
+        float: right;
+        margin-top: -50px;
+    }
+    /*fomulario Experiencia 4*/
+    .experience__info-container__4{
+        color: #464646;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 150px;
+    }
+    /*Imagen Telefono*/
+    .formcontato__img{
+        margin-top: 400px;
+        width: 464px;
+    }
+    /*Formulario*/
+    .formcontato__text{
+        margin-left: 500px;
+        margin-top: -600px;
+        font-size: 18px;
+        color: #464646;
+    }
+    /*tamano Formulario*/
+    .formcontato__input{
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 300px; 
+        margin-left: 10px;
+    }
+    /*Forma del Area de Texto*/
+    .formcontato__textarea{
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 400px; 
+        margin-left: 10px;
+    }
+     /*Boton Formulario*/
+    .formcontato__botao{
+        font-size: 18px;
+        width: 150px;
+        padding: 15px 0;
+        font-weight: bold;
+        color: white;
+        background: #2a7ae4;
+        border-color: white;
+    }
+}
+
+@media (min-width:1210px){
+     /*Bigrafia*/
+    .title__subsection{
+        display: flex;
+        color: #464646;
+        font-style: bold;
+        font-size: 25px; 
+        margin: 0 420px 0 30px;
+        margin-top: 30px;
+        color: #464646;
+     }
+    /*Lista de redes*/
+    .title__network{
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-right: 700px;
+        color: #464646;
+    }
+    /*Palabra Acerca de mi*/
+    .about__container{
+        margin-top: 190px;
+        margin-left: 30px;
+        font-size: 25px;
+        color: #464646;
+    }
+    /*Descripcion Acerca de Mi*/
+        .about__paragraph{
+        margin-left: 10px;
+        margin-right: 500px;
+        font-size: 20px;
+        text-align: justify;
+        color: #464646;
+    }
+    /*palabra Skills*/
+    .skills__title{
+        margin-left: 30px;
+        text-align: center;
+        font-size: 25px;
+        color: #464646;
+    }
+    /*caja de skills*/
+    .skills__box{
+        display: flex;
+        display: inline-block;
+        margin-left: 30px;
+        margin-right: 50px;
+        width: 100px;
+        padding: 5px;
+        font-size: 20px;
+        color: #464646;
+    }
+     /*palabra Hobies*/
+     .hobbies__title{
+        margin-left: 30px;
+        text-align: center;
+        font-size: 25px;
+        color: #464646;
+    }
+    /*caja de Hobbies*/
+    .hobbies__box{
+        display: flex;
+        display: inline-block;
+        margin-left: 30px;
+        margin-right: 50px;
+        width: 100px;
+        padding: 5px;
+        font-size: 20px;
+        color: #464646;
+    }
+     
+    /*Caja de Formacion Academica*/
+    .academic__courses__box{
+        display: flex;
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+        vertical-align: top;
+        margin-left: 150px;
+        color: #464646;
+    }
+        /*foto de experiencia 1*/
+    .experience__img{
+    width: 700px;
+    }
+   /*fomulario Experiencia 1*/
+    .experience__info__1{
+        float: right;
+        margin-right: 100px;
+        color: #464646;
+        font-size: 20px;
+    }
+    /*fomulario Experiencia 2*/
+    .experience__info__2{
+        color: #464646;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-top: 150px; 
+    }
+      /*Imagen Experiencia 2*/
+      .experience__img__2{
+        width: 752px;
+        float: right;
+        margin-top: -50px;
+    }
+    /*fomulario Experiencia 3*/
+    .experience__info-container__3{
+        float: right;
+        margin-top: 150px; 
+      color: #464646;
+      font-size: 20px;
+      margin-right: 100px;
+    }
+    /*Imagen Experiencia 3*/
+    .experience__img__3{
+        width: 752px;
+        }
+    /*Imagen Experiencia 4*/
+    .experience__img__4{
+        width: 752px;
+        float: right;
+        margin-top: -50px;
+        }
+       /*fomulario Experiencia 4*/
+       .experience__info-container__4{
+        color: #464646;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 150px;
+    }
+    /*Tamano de Formulario*/
+    .formcontato__textarea{
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 700px; 
+        margin-left: 10px;
+    }
+    /*Boton Enviar*/
+    .formcontato__input{
+        display: block;
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 50%; 
+        margin-left: 10px;
+    }
+}   
